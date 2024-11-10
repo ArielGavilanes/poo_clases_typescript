@@ -13,7 +13,6 @@ console.log(`Perro: ${perro.getEspecie()}, ${perro.getEdad()}, Color: ${perro.ge
 const gato = new Gato("Gato", 3, "Gris", "Siames");
 console.log(`Gato: ${gato.getEspecie()}, ${gato.getEdad()} años, Color: ${gato.getColor()}, Raza: ${gato.getRaza()}`);
 
-// Usar la función polimórfica para presentar animales
 console.log(presentarAnimal(animal)); // Presentación del animal (especie, edad, color)
 console.log(presentarAnimal(perro));  // Presentación del perro (con raza, tamaño y color)
 console.log(presentarAnimal(gato));   // Presentación del gato (con raza y color)
