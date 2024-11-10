@@ -1,1 +1,1 @@
-export interface Animal {}
+export interface AnimalI {}
