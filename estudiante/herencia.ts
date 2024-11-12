@@ -1,4 +1,4 @@
-import { Persona } from './encapsulamiento';
+import { Persona } from './persona/encapsulamiento';
 
 class Estudiante extends Persona {
     private matricula: string;
