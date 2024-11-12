@@ -1,6 +1,6 @@
 // src/polimorfismo.ts
 
-import { Persona } from './encapsulamiento';
+import { Persona } from './persona/encapsulamiento';
 
 class Profesor extends Persona {
     private materia: string;
