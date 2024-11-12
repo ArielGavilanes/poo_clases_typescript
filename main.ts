@@ -4,6 +4,9 @@ import { Perro } from "./animal/herencia";
 import { Gato, presentarAnimal } from "./animal/polimorfismo";
 import { cDeportivo } from "./carro/herencia";
 import { Clasico, presentarCarro } from "./carro/polimorfismo";
+import { Persona } from './persona/encapsulamiento';
+import { Estudiante } from './persona/herencia';
+import { Profesor, presentarPersona } from './persona/polimorfismo';
 
 // Crear instancias de Animal, Perro y Gato
 const animal = new Animal("Loro", 2, "Verde");
